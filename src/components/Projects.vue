@@ -15,7 +15,7 @@
                   <b-card title="Analysing sentiment of product features with user reviews"
                           :img-src="require('../assets/sentiment_analysis2.png')"
                           img-height="180px" img-alt="Image" img-top>
-                    <b-card-text style="font-size:14px">
+                    <b-card-text style="font-size:14px;text-align:justify">
                       The ratings that we usually see in shopping portals are
                       mostly based on product and/or service provided.
                       <i> What if they are rated based on its individual features? </i>
@@ -30,7 +30,7 @@
                   <b-card title="ResumeBot – an Interactive Chatbot"
                           :img-src="require('../assets/chatbot1.png')"
                           img-height="180px" img-alt="Image" img-top>
-                    <b-card-text style="font-size:14px">
+                    <b-card-text style="font-size:14px;text-align:justify">
 
                       Recruiters do not get immediate responses to process the job application because of the non-availability of a job seeker.
                       Applicants have limitations to provide all the details in Job portals and Resume.
@@ -49,23 +49,25 @@
 
                   <b-card title="Sentiment Analysis of Amazon Reviews using PySpark and MLlib" :img-src="require('../assets/bigdata.jpg')"
                           img-height="180px" img-alt="Image" img-top>
-                    <b-card-text style="font-size:14px">
+                    <b-card-text style="font-size:14px;text-align:justify">
                       Building a Sentiment Analysis model with the data of 2M reviews stored in a Hadoop File System using Apache PySpark and MLlib
                     </b-card-text>
                     <b-button href="https://github.com/rajasinghr/Sentiment-Analyzer-Big-Data-Project" target="_blank" size="sm" variant="secondary">Github Repo</b-button>
+                    <b-button href="https://github.com/rajasinghr/Sentiment-Analyzer-Big-Data-Project/blob/master/NBModel_for_reviews.ipynb" target="_blank" size="sm" variant="secondary">Notebook</b-button>
+                    
                     <div slot="footer"><small class="text-muted">Apache PySpark, Hadoop, Linux, Apache MLlib Library, Matplotlib</small></div>
                   </b-card>
                   <b-card title="A Personal Portfolio using VueJS"
                           :img-src="require('../assets/portfolio2.jpg')"
                           img-height="180px" img-alt="Image" img-top>
-                    <b-card-text style="font-size:14px">
+                    <b-card-text style="font-size:14px;text-align:justify">
                       A Data scientist with the knowledge of Software Web development is a good skill to have.
                       This skill helps me to present my findings and works in a better way.
                       <br />A fully funtional personal portfolio using latest front-end technology VueJS.
                       <i>Hope you like this portfolio</i>
                     </b-card-text>
                     <b-button href="https://github.com/rajasinghr/VPortfolio" target="_blank" size="sm" variant="secondary">Github Repo</b-button>
-                    <div slot="footer"><small class="text-muted">VueJS, HTML5, CSS3, Bootstrap-Vue</small></div>
+                    <div slot="footer"><small class="text-muted">VueJS, HTML5, CSS3, Bootstrap-Vue, Heroku</small></div>
                   </b-card>
 
 
@@ -77,7 +79,7 @@
 
                   <b-card-text>
                     <div class="row">
-                      <div class="col-md-11">
+                      <div class="col-md-11" style="text-align:justify">
                         <i>Is it possible to detect whether the room is occupied or not using the recorded parameters like light, temperature, humidity and CO2 levels?</i>
                         <br />Check out this binary classifier with 94% accuracy and 95% precision for predicting an occupancy of a room from the recorded parameters like light, temperature, humidity and CO2 measurements.
                       </div>
@@ -115,7 +117,7 @@
               <b-card title="How to detect a phishing attack using the website URL">
                 <b-card-text>
                   <div class="row">
-                    <div class="col-md-11">
+                    <div class="col-md-11" style="text-align:justify">
                       Two classifiers are built and compared for detecting phishing websites from the variety of parameters like URL length, Google Index, etc.
                       The obtained data is having important nominal features to characterize phishing websites.
                       Decision Tree and Neural Network models are built using SAS Enterprise Miner

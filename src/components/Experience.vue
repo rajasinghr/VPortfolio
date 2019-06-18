@@ -15,13 +15,13 @@
                 </div>
                 <div class="jobContent">
                   <ul>
-                    <li>
-                      Created RESTful API in .NET MVC, Entity Framework with C#, MS SQL using Domain Driven Design.
+                    <li style="text-align:justify">
+                      Created RESTful APIs in .NET MVC, Entity Framework with C#, MS SQL using Domain Driven Design.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Developed Responsive Web UI in HTML5, CSS3, JQuery, JavaScript, Bootstrap, VueJS.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Converting existing HTML/ JQuey scripts into VueJS.
                     </li>
                   </ul>
@@ -33,20 +33,20 @@
                 </div>
                 <div class="jobContent">
                   <ul>
-                    <li>
+                    <li style="text-align:justify">
                       Implemented a Knowledge Base Management System for classifying tickets using Support Vector Machine classifier and indexing manuals using Whoosh in Python.
                       The application is integrated with a Ticketing system using Web APIs.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Designed Chatbots to book a doctor appointment and raise support requests using NLP packages in Python.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Involved in an Agile software design and development of a complete BI ETL and Reporting platform for generating and distributing thousands of reports to more than 110 hospitals in the USA.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Developed a custom SOAP web services project by consuming web services provided by Teleopti SDK (Service Desk forecasting and scheduling application). The services are deployed in ISS and consumed by a JAVA application.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Built a Self-Service Portal application in CareWorks (CMS) which helps hospitals for creating service tickets and other requests. Implemented JavaScript event handling and developed Web APIs for all the basic and advanced controls.
                     </li>
                   </ul>
@@ -58,15 +58,15 @@
                 </div>
                 <div class="jobContent">
                   <ul>
-                    <li>
+                    <li style="text-align:justify">
                       Worked on 3 turnkey projects in Customer domain while at HTC’s BI Center of Excellence.
                       These projects included Data Profiling, Data Cleansing, ETL, De-duplication, Data Masking and creating an MDM solution integrating with other systems in the organizations using Informatica products.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Developed a Customer Identification System for a Non-banking Finance company to filter fraud loan applicants using Informatica Identity Resolution.
                       Wrote ETL jobs in Talend to extract, cleanse and load data in Customer Base system.
                     </li>
-                    <li>
+                    <li style="text-align:justify">
                       Developed a Customer Identification System for a Non-banking Finance company to filter fraud loan applicants using Informatica Identity Resolution. Wrote ETL jobs in Talend to extract, cleanse and load data in Customer Base system.
                     </li>
                     

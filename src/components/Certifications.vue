@@ -16,7 +16,13 @@
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
-                          <span class="certTitle">Python 3</span>
+                          <span class="certTitle">                         
+                              Python 3
+                            <!--<a class="certCredentialLink" target="_blank" href="https://www.sololearn.com/Course/Python/">
+                              <i class="fa fa-external-link-alt fa-2x" aria-hidden="true" style="color:black"></i>
+                            </a>-->
+                            
+                          </span>
                           <br />
                           <span class="issuedByText">issued by </span><span class="providerName">SoloLearn</span>
 
@@ -32,8 +38,9 @@
                   </b-card-header>
                   <b-collapse id="accordion-1"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">Great course to start for the one who gets into the python language. I learned how to use OOPS concepts in python. Apart from the language syntaxes and concepts,
+                      I studied and practiced how to build package modules in python. Functional programming using lambdas, map, and filter are new things to learn.</b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -44,7 +51,12 @@
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
-                          <span class="certTitle">The Python Mega Course: Build 10 Real World Applications</span>
+                          <span class="certTitle">
+                            
+                              The Python Mega Course: Build 10 Real World Applications
+                            
+                          </span>
+
                           <br />
                           <span class="issuedByText">issued by </span><span class="providerName">Udemy</span>
 
@@ -60,8 +72,12 @@
                   </b-card-header>
                   <b-collapse id="accordion-2"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned!</i>
+                      <!--<a style="float:right" class="certCredentialLink" target="_blank" href="https://www.udemy.com/the-python-mega-course/">Click here to know more about this course!</a>-->
+                      </b-card-text>
+                      <b-card-text style="text-align:justify">The best way to learn something is to get your hands dirty.
+                      I spent more than a month to complete this course. Apart from learning, I built 10 projects covering various topics like web scrapping using BeautifulSoup, desktop application, web application and deployment in Heruko, computer vision using OpenCV and database application.
+                      I am applying all the skills that I learned in this course even today.</b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -86,16 +102,17 @@
                   </b-card-header>
                   <b-collapse id="accordion-3"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned! </i></b-card-text>
+                      <b-card-text style="text-align:justify">This course was taken as a challenge to learn a new statistical language, SAS. I got introduced with the basics of SAS programming.
+                      This helps me to understand how SAS works and to compare the concepts with python.</b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-3 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
                       <div class="row">
-                        <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
+                        <div class="col-md-9" style="line-height: 3px;padding-bottom: 10px;">
                           <img src="@/assets/sas.jpg" width="30" height="30" />
                           <span class="certTitle">SAS Programming 2: Data Manipulation Techniques</span>
                           <br />
@@ -111,16 +128,20 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-3"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-4"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        This is the part 2 course of SAS Programming. I learned how to understand and control SAS Data processing. I spent a lot of time on practicing data operations in SAS tables.
+                        <br />
+                        <i>What’s next?</i> Planning to complete the SAS Programming Certification.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/vue.png" width="30" height="30" />
@@ -138,16 +159,19 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-4"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-5"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        In my employment, I was put in a challenge to move a 5 years old front-end application into Vue Framework. I purchased this course and it helps to build a production-ready VueJS application.
+                        <br />More importantly, I build my personal portfolio using the things that I learned in this course.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-6 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/accounting.jpg" width="30" height="30" />
@@ -165,10 +189,11 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-5"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-6"  accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text>What I learned! </b-card-text>
-                      <b-card-text>Certificate 1</b-card-text>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">I took this course to complete my academic prerequisite with no knowledge in Finance domain.
+                      In this, I understand the basics and jargons in Financial accounting domain.</b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -244,8 +269,10 @@
   }
 
   .certTitle {
-    font-weight: 600;
-    font-size: medium;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600
   }
 
   .issuedByText {
@@ -256,8 +283,9 @@
   }
 
   .providerName {
-    font-weight: 600;
-    font-size: medium;
+    font-weight: 400;
+    font-size: 14px;
+    font-weight:500
   }
 
   .expirationText {

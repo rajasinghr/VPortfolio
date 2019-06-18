@@ -12,7 +12,7 @@
               
             </div>
             <div class="contentMain" id="contactContent">
-              <div class="col-sm-10" style="padding:30px 0px 30px 30px">
+              <div class="col-sm-10" style="padding:30px 0px 30px 30px;text-align:justify">
                 <span style="font-size:16px;font-style:italic;font-weight:600">
                   Have work opportunities? Want to collaborate on a project? Need advice?
                 </span>
