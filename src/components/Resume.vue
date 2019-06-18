@@ -10,7 +10,7 @@
             </div>
             <div class="contentMain" id="ResumeContent">
               <div class="col-sm-10">
-                <embed style="width:123%;"  height="400" src="https://drive.google.com/uc?export=view&id=1_dq0TmMv5jj5jdHKqCrf321Wk4xd5-ZF"  alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+                <embed style="width:123%;"  height="400" src="https://drive.google.com/uc?export=view&id=17p9-DBl-zGMcmftMxPXO9oToK13m803J"  alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
               </div>
             </div>
           </div>
