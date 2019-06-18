@@ -11,7 +11,7 @@
             <div class="contentMain" id="experienceContent">
               <div class="job">
                 <div class="jobTitle">
-                  <span><b>Chatbot Study, University of South Florida,</b> Tampa, US. </span><span style="float:right">Aug 2018 – June 2019</span>
+                  <span><b>Chatbot Study, University of South Florida,</b> Tampa, US. </span><span style="float:right"><i>May 2019 – Recent</i></span>
                 </div>
                 <div class="jobContent">
                   <ul>
@@ -27,7 +27,7 @@
               </div>
               <div class="job">
                 <div class="jobTitle">
-                  <span><b>Graduate Assistant, MyReviewers, University of South Florida,</b> Tampa, US. </span><span style="float:right">Aug 2018 – June 2019</span>
+                  <span><b>Graduate Assistant, MyReviewers, University of South Florida,</b> Tampa, US. </span><span style="float:right"><i>Aug 2018 – Recent</i></span>
                 </div>
                 <div class="jobContent">
                   <ul>
