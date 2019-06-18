@@ -11,6 +11,22 @@
             <div class="contentMain" id="experienceContent">
               <div class="job">
                 <div class="jobTitle">
+                  <span><b>Chatbot Study, University of South Florida,</b> Tampa, US. </span><span style="float:right">Aug 2018 – June 2019</span>
+                </div>
+                <div class="jobContent">
+                  <ul>
+                    <li style="text-align:justify">
+                      An independent study under the guidance of prof. Triparna on measuring the human behavior with the help of Chatbots.
+                    </li>
+                    <li style="text-align:justify">
+                      This work is to cognize how humans behave for high/low levels of Autonomy, Competency & Relatedness.
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+              <div class="job">
+                <div class="jobTitle">
                   <span><b>Graduate Assistant, MyReviewers, University of South Florida,</b> Tampa, US. </span><span style="float:right">Aug 2018 – June 2019</span>
                 </div>
                 <div class="jobContent">
@@ -69,7 +85,7 @@
                     <li style="text-align:justify">
                       Developed a Customer Identification System for a Non-banking Finance company to filter fraud loan applicants using Informatica Identity Resolution. Wrote ETL jobs in Talend to extract, cleanse and load data in Customer Base system.
                     </li>
-                    
+
                   </ul>
                 </div>
               </div>
