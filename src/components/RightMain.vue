@@ -34,10 +34,12 @@
           </ul>
         </b-collapse>
       </nav>
+      <div id="mainDiv">
+        <slot name="content">
 
-      <slot name="content">
-
-      </slot>
+        </slot>
+      </div>
+      
     </div>
   </div>
 </template>
@@ -58,5 +60,9 @@
   .contentDiv {
     background-color: #fcfffc;
     padding: 15px 0px 20px 20px;
+  }
+
+  #mainDiv{
+    margin-right:20px
   }
 </style>
