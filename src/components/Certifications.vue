@@ -10,18 +10,58 @@
             </div>
             <div class="contentMain" id="projectsContent">
               <div role="tablist">
+
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
                     <div block v-b-toggle.accordion-1 variant="info" class="titleDiv">
                       <div class="row">
+
+                        <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
+                          <img src="@/assets/tableau.png" width="30" height="30" />
+                          <span class="certTitle">
+                            Tableau 10 A-Z: Hands-On Tableau Training For Data Science!
+                          </span>
+                          <br />
+                          <span class="issuedByText">issued by </span><span class="providerName">Udemy</span>
+
+                        </div>
+                        <div class="col-md-3" style="line-height: 19px;padding-bottom: 0px;">
+                          <a class="certCredentialLink" target="_blank" href="https://www.udemy.com/certificate/UC-1DN669NA/">See Certificate</a>
+
+                          <br />
+                          <span class="expirationText">Jun 2019 - No Expiration</span>
+                        </div>
+                      </div>
+                    </div>
+                  </b-card-header>
+                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                    <b-card-body>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        I practised the cool features available in Tableau 10 and developed visually appealing Charts, Dashboards and Storylines. Moreover, I worked on Tableau 10 new features.
+                        Cross Table joins and Tableau Analytics are the new interesting topics to learn in Tableau.
+                        <br />
+                        Apart from visualizations, I realized that cleansing and understanding the data are the two important tasks to do before analysing the data. I can happily say that I spent most of the time for data analysis.
+                        <br />Happy analysing!
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+
+
+                <b-card no-body class="mb-1">
+                  <b-card-header header-tag="header" class="p-1" role="tab">
+                    <div block v-b-toggle.accordion-1 variant="info" class="titleDiv">
+                      <div class="row">
+
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
-                          <span class="certTitle">                         
-                              Python 3
+                          <span class="certTitle">
+                            Python 3
                             <!--<a class="certCredentialLink" target="_blank" href="https://www.sololearn.com/Course/Python/">
-                              <i class="fa fa-external-link-alt fa-2x" aria-hidden="true" style="color:black"></i>
-                            </a>-->
-                            
+                <i class="fa fa-external-link-alt fa-2x" aria-hidden="true" style="color:black"></i>
+              </a>-->
+
                           </span>
                           <br />
                           <span class="issuedByText">issued by </span><span class="providerName">SoloLearn</span>
@@ -36,11 +76,13 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-1"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
-                      <b-card-text style="text-align:justify">Great course to start for the one who gets into the python language. I learned how to use OOPS concepts in python. Apart from the language syntaxes and concepts,
-                      I studied and practiced how to build package modules in python. Functional programming using lambdas, map, and filter are new things to learn.</b-card-text>
+                      <b-card-text style="text-align:justify">
+                        Great course to start for the one who gets into the python language. I learned how to use OOPS concepts in python. Apart from the language syntaxes and concepts,
+                        I studied and practiced how to build package modules in python. Functional programming using lambdas, map, and filter are new things to learn.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -52,9 +94,9 @@
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
                           <span class="certTitle">
-                            
-                              The Python Mega Course: Build 10 Real World Applications
-                            
+
+                            The Python Mega Course: Build 10 Real World Applications
+
                           </span>
 
                           <br />
@@ -70,14 +112,17 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-2"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
-                      <b-card-text><i>What I learned!</i>
-                      <!--<a style="float:right" class="certCredentialLink" target="_blank" href="https://www.udemy.com/the-python-mega-course/">Click here to know more about this course!</a>-->
+                      <b-card-text>
+                        <i>What I learned!</i>
+                        <!--<a style="float:right" class="certCredentialLink" target="_blank" href="https://www.udemy.com/the-python-mega-course/">Click here to know more about this course!</a>-->
                       </b-card-text>
-                      <b-card-text style="text-align:justify">The best way to learn something is to get your hands dirty.
-                      I spent more than a month to complete this course. Apart from learning, I built 10 projects covering various topics like web scrapping using BeautifulSoup, desktop application, web application and deployment in Heruko, computer vision using OpenCV and database application.
-                      I am applying all the skills that I learned in this course even today.</b-card-text>
+                      <b-card-text style="text-align:justify">
+                        The best way to learn something is to get your hands dirty.
+                        I spent more than a month to complete this course. Apart from learning, I built 10 projects covering various topics like web scrapping using BeautifulSoup, desktop application, web application and deployment in Heruko, computer vision using OpenCV and database application.
+                        I am applying all the skills that I learned in this course even today.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -100,11 +145,13 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-3"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned! </i></b-card-text>
-                      <b-card-text style="text-align:justify">This course was taken as a challenge to learn a new statistical language, SAS. I got introduced with the basics of SAS programming.
-                      This helps me to understand how SAS works and to compare the concepts with python.</b-card-text>
+                      <b-card-text style="text-align:justify">
+                        This course was taken as a challenge to learn a new statistical language, SAS. I got introduced with the basics of SAS programming.
+                        This helps me to understand how SAS works and to compare the concepts with python.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
@@ -128,7 +175,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-4"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -159,7 +206,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-5"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -189,11 +236,13 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-6"  accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
-                      <b-card-text style="text-align:justify">I took this course to complete my academic prerequisite with no knowledge in Finance domain.
-                      In this, I understand the basics and jargons in Financial accounting domain.</b-card-text>
+                      <b-card-text style="text-align:justify">
+                        I took this course to complete my academic prerequisite with no knowledge in Finance domain.
+                        In this, I understand the basics and jargons in Financial accounting domain.
+                      </b-card-text>
                     </b-card-body>
                   </b-collapse>
                 </b-card>
