@@ -10,10 +10,48 @@
             </div>
             <div class="contentMain" id="projectsContent">
               <div role="tablist">
-
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
                     <div block v-b-toggle.accordion-1 variant="info" class="titleDiv">
+                      <div class="row">
+
+                        <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
+                          <img src="@/assets/aws.png" width="30" height="30" />
+                          <span class="certTitle">
+                            AWS Essentials (2019)
+                          </span>
+                          <br />
+                          <span class="issuedByText">issued by </span><span class="providerName">Udemy</span>
+
+                        </div>
+                        <div class="col-md-3" style="line-height: 19px;padding-bottom: 0px;">
+                          <a class="certCredentialLink" target="_blank" href="https://www.udemy.com/certificate/UC-MQ2NNN9S/">See Certificate</a>
+
+                          <br />
+                          <span class="expirationText">Jun 2019 - No Expiration</span>
+                        </div>
+                      </div>
+                    </div>
+                  </b-card-header>
+                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                    <b-card-body>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        A long wait to get into Cloud Computing has come to an end.
+                        <br />
+                        I built a complete cloud architecture starting from IAM, setting network services (VPC), creating EC2 instances in subnets, S3 buckets and a RDS database inside a private subnet.
+                        Built monitoring services and alerts using SNS and Cloudwatch. Also, I learned Elastic Load Balancer, how to auto scale the instances and Route 53.
+                        Finally amazed with the concept of Serverless computing and it is still a long way to go.
+
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+
+
+                <b-card no-body class="mb-1">
+                  <b-card-header header-tag="header" class="p-1" role="tab">
+                    <div block v-b-toggle.accordion-2 variant="info" class="titleDiv">
                       <div class="row">
 
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
@@ -34,7 +72,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -51,7 +89,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-1 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-3 variant="info" class="titleDiv">
                       <div class="row">
 
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
@@ -76,7 +114,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -89,7 +127,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-2 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
@@ -112,7 +150,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text>
                         <i>What I learned!</i>
@@ -128,7 +166,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-3 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/sas.jpg" width="30" height="30" />
@@ -145,7 +183,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned! </i></b-card-text>
                       <b-card-text style="text-align:justify">
@@ -157,7 +195,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-6 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 3px;padding-bottom: 10px;">
                           <img src="@/assets/sas.jpg" width="30" height="30" />
@@ -175,7 +213,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -188,7 +226,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-7 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/vue.png" width="30" height="30" />
@@ -206,7 +244,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -218,7 +256,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-6 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-8 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/accounting.jpg" width="30" height="30" />
@@ -236,7 +274,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
