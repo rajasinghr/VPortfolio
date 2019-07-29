@@ -2,7 +2,7 @@
   <div class="container">
     <div id="myDiv">
       <div id="myPicDiv">
-        <img id="myPic" src="@/assets/mypic.jpg" class="img-responsive" />
+        <img id="myPic" src="@/assets/raja_pic.png" class="img-responsive" />
       </div>
       <div id="introDiv">
         <p>Welcome to the web hub of <span style="color:white;"><b>Raja Singh Ravi</b></span>. Expertise in Data Science Technologies, Natural Language Processing, Big Data Solutions, Data Visualization and Software Development</p>
