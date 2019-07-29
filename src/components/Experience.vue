@@ -9,7 +9,7 @@
               <h1 class="titleText">My Journey till now. . .</h1>
             </div>
             <div class="contentMain" id="experienceContent">
-              <div class="job">
+              <!--<div class="job">
                 <div class="jobTitle">
                   <span><b>Chatbot Study, University of South Florida,</b> Tampa, US. </span><span style="float:right"><i>May 2019 – Recent</i></span>
                 </div>
@@ -24,7 +24,7 @@
 
                   </ul>
                 </div>
-              </div>
+              </div>-->
               <div class="job">
                 <div class="jobTitle">
                   <span><b>Graduate Assistant, MyReviewers, University of South Florida,</b> Tampa, US. </span><span style="float:right"><i>Aug 2018 – Recent</i></span>
@@ -45,7 +45,7 @@
               </div>
               <div class="job">
                 <div class="jobTitle">
-                  <span><b>Data Analyst, CareTech Solutions,</b> Chennai, India. </span><span style="float:right">Oct 2016 – Jul 2018</span>
+                  <span><b>Data Analyst Lead, CareTech Solutions,</b> Chennai, India. </span><span style="float:right">Oct 2016 – Jul 2018</span>
                 </div>
                 <div class="jobContent">
                   <ul>
@@ -70,7 +70,7 @@
               </div>
               <div class="job">
                 <div class="jobTitle">
-                  <span><b>Business Intelligence Analyst, HTC Global Services,</b> Chennai, India. </span><span style="float:right">Aug 2014 – Oct 2016</span>
+                  <span><b>Data Analyst, HTC Global Services,</b> Chennai, India. </span><span style="float:right">Aug 2014 – Oct 2016</span>
                 </div>
                 <div class="jobContent">
                   <ul>

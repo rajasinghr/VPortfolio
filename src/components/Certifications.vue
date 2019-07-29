@@ -10,9 +10,87 @@
             </div>
             <div class="contentMain" id="projectsContent">
               <div role="tablist">
+
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
                     <div block v-b-toggle.accordion-1 variant="info" class="titleDiv">
+                      <div class="row">
+
+                        <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
+                          <img src="@/assets/infer.png" width="30" height="30" />
+                          <span class="certTitle">
+                            Inferential Statistics
+                          </span>
+                          <br />
+                          <span class="issuedByText">issued by </span><span class="providerName">Coursera</span>
+
+                        </div>
+                        <div class="col-md-3" style="line-height: 19px;padding-bottom: 0px;">
+                          <a class="certCredentialLink" target="_blank" href="https://www.coursera.org/account/accomplishments/verify/2W86QXDV4ZND">See Certificate</a>
+
+                          <br />
+                          <span class="expirationText">Jul 2019 - No Expiration</span>
+                        </div>
+                      </div>
+                    </div>
+                  </b-card-header>
+                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                    <b-card-body>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        A deep statistics course provided lectured by Dr. Mine Çetinkaya-Rundel from Duke university.
+                        I worked on interential statistics and did my lab using R. 
+                        <br />
+                        Building my final project was exciting and required a lots of effort on implementing the topics I learned.
+
+                        <br />
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+
+
+                <b-card no-body class="mb-1">
+                  <b-card-header header-tag="header" class="p-1" role="tab">
+                    <div block v-b-toggle.accordion-2 variant="info" class="titleDiv">
+                      <div class="row">
+
+                        <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
+                          <img src="@/assets/tableau.png" width="30" height="30" />
+                          <span class="certTitle">
+                            Tableau 10 Advanced Training: Master Tableau in Data Science
+                          </span>
+                          <br />
+                          <span class="issuedByText">issued by </span><span class="providerName">Udemy</span>
+
+                        </div>
+                        <div class="col-md-3" style="line-height: 19px;padding-bottom: 0px;">
+                          <a class="certCredentialLink" target="_blank" href="https://www.udemy.com/certificate/UC-Q4WIM3BH/">See Certificate</a>
+
+                          <br />
+                          <span class="expirationText">Jul 2019 - No Expiration</span>
+                        </div>
+                      </div>
+                    </div>
+                  </b-card-header>
+                  <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                    <b-card-body>
+                      <b-card-text><i>What I learned!</i> </b-card-text>
+                      <b-card-text style="text-align:justify">
+                        This is an advanced course in Tableau 10 taught by Kirill Eremenko, SuperDataScience Team on Udemy.
+                        I worked on building excellent stories from the challenges given. It develops my creativity to build new things instead of practising the lessons he taught.
+                        <br />
+                        Tableau animations, Table calculations, Groups and Sets, and Level of Detail Calculations are pretty cool features in Tableau.
+                        <br />Happy analysing!
+                      </b-card-text>
+                    </b-card-body>
+                  </b-collapse>
+                </b-card>
+
+
+                <b-card no-body class="mb-1">
+                  <b-card-header header-tag="header" class="p-1" role="tab">
+                    <div block v-b-toggle.accordion-3 variant="info" class="titleDiv">
                       <div class="row">
 
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
@@ -33,7 +111,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -51,7 +129,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-2 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
                       <div class="row">
 
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
@@ -72,7 +150,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -89,7 +167,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-3 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
                       <div class="row">
 
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
@@ -114,7 +192,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -127,7 +205,7 @@
 
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-4 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-6 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/python3.png" width="30" height="30" />
@@ -150,7 +228,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text>
                         <i>What I learned!</i>
@@ -166,7 +244,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-5 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-7 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/sas.jpg" width="30" height="30" />
@@ -183,7 +261,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned! </i></b-card-text>
                       <b-card-text style="text-align:justify">
@@ -195,7 +273,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-6 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-8 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 3px;padding-bottom: 10px;">
                           <img src="@/assets/sas.jpg" width="30" height="30" />
@@ -213,7 +291,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -226,7 +304,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-7 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-9 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/vue.png" width="30" height="30" />
@@ -244,7 +322,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-9" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -256,7 +334,7 @@
                 </b-card>
                 <b-card no-body class="mb-1">
                   <b-card-header header-tag="header" class="p-1" role="tab">
-                    <div block v-b-toggle.accordion-8 variant="info" class="titleDiv">
+                    <div block v-b-toggle.accordion-10 variant="info" class="titleDiv">
                       <div class="row">
                         <div class="col-md-9" style="line-height: 0.2px;padding-bottom: 10px;">
                           <img src="@/assets/accounting.jpg" width="30" height="30" />
@@ -274,7 +352,7 @@
                       </div>
                     </div>
                   </b-card-header>
-                  <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
+                  <b-collapse id="accordion-10" accordion="my-accordion" role="tabpanel">
                     <b-card-body>
                       <b-card-text><i>What I learned!</i> </b-card-text>
                       <b-card-text style="text-align:justify">
@@ -342,22 +420,20 @@
     padding-right: 0px !important;
   }
 
-  .titleDiv{
-    background-color:#bec1c4;
-    color:#3e3f41;
-    
-    border-radius:2px;
+  .titleDiv {
+    background-color: #bec1c4;
+    color: #3e3f41;
+    border-radius: 2px;
     padding: 3px 10px 3px 10px;
   }
 
-  .certCredentialLink{
-    
-    text-decoration:none;
+  .certCredentialLink {
+    text-decoration: none;
   }
 
   .certTitle {
     font-weight: 400;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: 600
   }
@@ -365,18 +441,16 @@
   .issuedByText {
     padding: 0px 5px 0px 35px;
     font-weight: 400;
-    font-size:12px;
-    
+    font-size: 12px;
   }
 
   .providerName {
     font-weight: 400;
     font-size: 14px;
-    font-weight:500
+    font-weight: 500
   }
 
   .expirationText {
-    
     font-weight: 400;
     font-size: 14px;
   }
